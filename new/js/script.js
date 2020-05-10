@@ -5,10 +5,10 @@ $(document).ready(function($) {
     //ADD .TIGHT
     if ($(window).scrollTop() + $(window).height() > $('.wrapper').outerHeight()) {
       $('body').addClass('tight');
-      $('.arrow').hide();
+//      $('.arrow').hide();
     } else {
       $('body').removeClass('tight');
-      $('.arrow').show();
+//      $('.arrow').show();
     }
   });
 
@@ -21,6 +21,6 @@ $(document).ready(function($) {
 
 });
 
-$('.arrow').click(function(){
-   $("html").animate({ scrollTop: $('html').prop("scrollHeight")}, 1200);
-});
+//$('.arrow').click(function(){
+//   $("html").animate({ scrollTop: $('html').prop("scrollHeight")}, 1200);
+//});
